@@ -1,6 +1,6 @@
-> _This page is for functions that do not deserve their own page/do not fit in with other pages._
+>_This page is for functions that do not deserve their own page/do not fit in with other pages._
 
-> _This page is also still a work in progress! New things may be added overtime, and certain aspects of this page might be changed or removed._
+>_This page is also still a work in progress! New things may be added overtime, and certain aspects of this page might be changed or removed._
 
 ## Randomization Functions
 ### getRandomInt(min:Int, max:Int = FlxMath.MAX_VALUE_INT, exclude:String = '')
