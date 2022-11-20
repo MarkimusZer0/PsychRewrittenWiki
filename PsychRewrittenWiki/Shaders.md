@@ -106,3 +106,7 @@ Modifies a sampler2D input of an object's shader.
 * `obj` - Object's string tag.
 * `prop` - The name of the shader input to modify.
 * `bitmapdataPath` - The texture to use as the sampler2D input.
+***
+
+### Resources
+[Tutorial for basic shader usage](https://gamebanana.com/tuts/15316)
