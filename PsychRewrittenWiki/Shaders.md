@@ -1,7 +1,3 @@
->_**Warning** : This page may have some incorrect information due to my lack of knowledge on shaders. If I explained something incorrectly, make an issue and explain how I can make it better._
-
->_This page is also still a work in progress! New things may be added overtime, and certain aspects of this page might be changed or removed._
-
 ## Initializing and Removing Shaders
 ### initLuaShader(name:String, glslVersion:Int = 120)
 Initializes a shader, making it ready for use.
@@ -21,6 +17,44 @@ Keep in mind every object can only have **one** shader attached!
 Removes a shader from an object.
 
 * `obj` - Object's string tag.
+***
+
+## Getting Shader Properties
+### getShaderBool(obj:String, prop:String)
+Returns a boolean parameter of an object's shader.
+
+* `obj` - Object's string tag.
+* `prop` - The name of the parameter to return.
+
+### getShaderBoolArray(obj:String, prop:String)
+Returns a boolean array parameter of an object's shader.
+
+* `obj` - Object's string tag.
+* `prop` - The name of the parameter to return.
+
+### getShaderInt(obj:String, prop:String)
+Returns an integer parameter of an object's shader.
+
+* `obj` - Object's string tag.
+* `prop` - The name of the parameter to return.
+
+### getShaderIntArray(obj:String, prop:String)
+Returns an integer array parameter of an object's shader.
+
+* `obj` - Object's string tag.
+* `prop` - The name of the parameter to return.
+
+### getShaderFloat(obj:String, prop:String)
+Returns a float parameter of an object's shader.
+
+* `obj` - Object's string tag.
+* `prop` - The name of the parameter to return.
+
+### getShaderFloatArray(obj:String, prop:String)
+Returns a float array parameter of an object's shader.
+
+* `obj` - Object's string tag.
+* `prop` - The name of the parameter to return.
 ***
 
 ## Setting Shader Properties
