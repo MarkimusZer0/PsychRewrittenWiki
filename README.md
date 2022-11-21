@@ -9,7 +9,7 @@ For problems and/or suggestions, you can make an issue on this repository, or DM
 
 This wiki's content is mostly stuff related to Psych Engine's Lua system, for learning things things outside of that, look at the **official** Psych Engine wiki.
 
-Please note that some variables and/or functions on this wiki haven't been implemented in the official releases of Psych Engine. Some of these features can only be accessed via Psych Engine's action builds until the next official release.
+Please note that some variables and/or functions on this wiki haven't been implemented in the official releases of Psych Engine. Some of these features can only be accessed via Psych Engine's action builds until a new update comes out.
 
 You can get Psych Engine on the Github page [here](https://github.com/ShadowMario/FNF-PsychEngine), or the Gamebanana page [here](https://gamebanana.com/mods/309789).
 ***
