@@ -103,4 +103,4 @@
 * `buildTarget` - Returns the operating system you're running psych on. Main ones are `windows, linux, mac, browser`, and `android`.
 * `scriptName` - Returns the name of the script you use this variable in.
 * `currentModDirectory` - Returns the current mod directory.
-* `curStage` - Returns the song's current stage.
+* `curStage` - Returns the current song's stage.
