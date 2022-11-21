@@ -17,5 +17,6 @@ It will only be run if the specified character is used on the current song and i
 ### Global Script
 Should be saved in `mods/scripts/`. It will run in all songs/difficulties, with no exceptions.
 ***
+
 ### Resources 
 [Mods Folder Template](https://github.com/CaptainBaldi/FNF-PsychEngine/blob/main/docs/modTemplate.zip)
