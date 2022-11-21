@@ -8,9 +8,9 @@
 ***
 
 ## Gameplay Variables
-* `score` - Returns the current score. Alternative to `getScore`.
-* `misses` - Returns the current misses. Alternative to `getMisses`.
-* `hits` - Returns the total amount of notes hit. Alternative to `getHits`.
+* `score` - Returns the current score. Alternative to the function `getScore`.
+* `misses` - Returns the current misses. Alternative to the function `getMisses`.
+* `hits` - Returns the total amount of notes hit. Alternative to the function `getHits`.
 * `rating` - Returns the current rating percentage (from 0 to 1).
 * `ratingName` - Returns the current rating name.
 * `ratingFC` - Returns the current rating FC.
