@@ -158,3 +158,6 @@ Centers an object to the screen.
 Returns if a Lua sprite exists with the tag `tag`.
 
 * `tag` - Sprite's string tag.
+
+### Resources
+[Example of Animated Sprite - Winning Icons](https://cdn.discordapp.com/attachments/1013221526490857482/1044214684703797259/winningIcons.lua)
