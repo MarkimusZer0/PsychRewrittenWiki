@@ -16,24 +16,24 @@ Does a tween on a receptor's X position. Once the tween is finished, it will do 
 ### noteTweenY(tag:String, note:Int, value:Dynamic, duration:Float, ease:String)
 Does a tween on a receptor's Y position.
 
-Works similarly to noteTweenX.
+Works similarly to `noteTweenX`.
 
 ### noteTweenAngle(tag:String, note:Int, value:Dynamic, duration:Float, ease:String)
 Does a tween on a receptor's angle.
 
-Works similarly to noteTweenX.
+Works similarly to `noteTweenX`.
 
 ### noteTweenAlpha(tag:String, note:Int, value:Dynamic, duration:Float, ease:String)
 Does a tween on a receptor's alpha value.
 
-Works similarly to noteTweenX.
+Works similarly to `noteTweenX`.
 
 ### noteTweenDirection(tag:String, note:Int, value:Dynamic, duration:Float, ease:String)
 Does a tween on a receptor's direction.
 
 Is a bit buggy.
 
-Works similarly to noteTweenX.
+Works similarly to `noteTweenX`.
 ***
 ## General Tween Functions
 ### doTweenX(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
@@ -50,27 +50,27 @@ Does a tween on an object's X position. Once the tween is finished, it will do a
 ### doTweenY(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 Does a tween on an object's Y position.
 
-Works similarly to doTweenX.
+Works similarly to `doTweenX`.
 
 ### doTweenAngle(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 Does a tween on an object's angle.
 
-Works similarly to doTweenX.
+Works similarly to `doTweenX`.
 
 ### doTweenAlpha(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 Does a tween on an object's alpha value.
 
-Works similarly to doTweenX.
+Works similarly to `doTweenX`.
 
 ### doTweenZoom(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 Does a tween on a camera's zoom.
 
-Works similarly to doTweenX, but `vars` should be `camGame, camHUD, or camOther`.
+Works similarly to `doTweenX`, but `vars` should be `camGame, camHUD, or camOther`.
 
 ### doTweenColor(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 Does a tween on an object's color.
 
-Works similarly to doTweenX.
+Works similarly to `doTweenX`.
 
 ### cancelTween(tag)
 Cancels a tween with the tag `tag`, if one exists.

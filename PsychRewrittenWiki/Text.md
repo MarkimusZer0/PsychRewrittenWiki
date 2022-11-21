@@ -12,7 +12,7 @@ Adds a Lua text.
 ### removeLuaText(tag:String, destroy:Bool = true)
 Removes the Lua text `tag`.
 
-* `destroy` - (OPTIONAL) If false, the text will not have to be remade before it can be added again.
+* `destroy` - Optional parameter. If false, the text will not have to be remade before it can be added again.
 ***
 
 ## Text Getters/Setters

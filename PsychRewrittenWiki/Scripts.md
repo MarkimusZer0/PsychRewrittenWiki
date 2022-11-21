@@ -15,7 +15,7 @@ Removes a Lua script.
 Returns the currently running scripts.
 
 ### debugPrint(text1:String, text2:String, text3:String, text4:String, text5:String)
-Prints a message at the top left corner, mainly used for testing certain aspects of scripts.
+Prints a message in the top left corner, mainly used for testing certain aspects of scripts.
 
 ### close()
 Closes the currently running script.

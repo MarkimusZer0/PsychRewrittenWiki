@@ -3,16 +3,15 @@
 Plays a sound file.
 
 * `sound` - File name. Should be in `mods/sounds` or `assets/sounds`. Must be a .OGG file type. Once the sound is completed, does a callback for `onSoundFinished()`.
-
-* `volume` - Optional. The volume the sound should play at. Can go from 0 to 1. Default value is 1.
-* `tag` Sound's string tag. Is optional but is required for all of the sound related functions.
+* `volume` - Optional parameter that defines the volume the sound should play at. Can go from 0 to 1. Default value is 1.
+* `tag` - Sound's string tag. Is optional, but is required for all of the sound related functions.
 
 ### playMusic(music:String, volume:Float = 1, loop:Bool = false)
 Plays a music file.
 
 * `music` - File name. Should be in `mods/music` or `assets/music`. Must be a .OGG file type.
-* `volume` - Optional. The volume the music should play at. Can go from 0 to 1. Default value is 1.
-* `loop` - Optional. If true, the music will loop indefinitely. Default value is false.
+* `volume` - Optional parameter that defines the volume the music should play at. Can go from 0 to 1. Default value is 1.
+* `loop` - Optional parameter that defines if the music should loop indefinitely. Default value is false.
 
 ## Sound Control
 ### pauseSound(tag:String)
