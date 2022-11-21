@@ -109,4 +109,4 @@ Modifies a sampler2D input of an object's shader.
 ***
 
 ### Resources
-[Tutorial for basic shader usage](https://gamebanana.com/tuts/15316)
+[Gamebanana tutorial explaining basic shader usage](https://gamebanana.com/tuts/15316)
