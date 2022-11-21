@@ -3,7 +3,7 @@
 Initializes a shader, making it ready for use.
 
 * `name` - Name of the shader.
-* `glslVersion` - Optional variable that defines the glsl version of the shader.
+* `glslVersion` - Optional parameter that defines the glsl version of the shader. Default is 120.
 
 ### setSpriteShader(obj:String, shader:String)
 Applies a shader to an object.
