@@ -7,7 +7,7 @@ Since ShadowMario hasn't updated the official wiki in months, I decided to rewri
 
 For problems and/or suggestions, you can make an issue on this repository, or DM me on Discord at Detective Baldi#1002.
 
-This wiki's content is mostly stuff related to Psych Engine's Lua system, for learning things things outside of that, look at the **official** Psych Engine wiki.
+This wiki's content is mostly stuff related to Psych Engine's Lua system, for learning things outside of that, look at the **official** Psych Engine wiki.
 
 Please note that some variables and/or functions on this wiki haven't been implemented in the official releases of Psych Engine. Some of them can only be accessed via Psych Engine's action builds until a new update releases.
 
