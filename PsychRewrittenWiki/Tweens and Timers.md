@@ -7,7 +7,7 @@ Does a tween on a receptor's X position. Once the tween is finished, it will do 
 
 **Calling this function will cancel another tween that is using the same tag!**
 
-* `tag` - The tween's tag.
+* `tag` - The tween's string tag.
 * `note` - The note to tween. Opponent's notes are 0, 1, 2 and 3, respectively. Boyfriend's notes are 4, 5, 6, 7 respectively.
 * `value` - Target value on the tween end.
 * `duration` - How much time it will take for the tween to complete.
@@ -41,7 +41,7 @@ Does a tween on an object's X position. Once the tween is finished, it will do a
 
 **Calling this function will cancel another tween that is using the same tag!**
 
-* `tag` - The tween's tag.
+* `tag` - The tween's string tag.
 * `vars` - Object to tween.
 * `value` - Target value on the tween end.
 * `duration` - How much time it will take for the tween to complete.
@@ -87,7 +87,7 @@ Runs a timer with the tag `tag`. Once the timer is finished, it will do a callba
 
 **Calling this function will cancel another timer that is using the same tag!**
 
-* `tag` - The timer's tag.
+* `tag` - The timer's string tag.
 * `time` - How long the time runs for, in seconds.
 * `loops` - How many loops the timer has.
 
