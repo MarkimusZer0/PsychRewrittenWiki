@@ -14,7 +14,7 @@ Please note that some variables and/or functions on this wiki haven't been imple
 You can get Psych Engine on the Github page [here](https://github.com/ShadowMario/FNF-PsychEngine), or the Gamebanana page [here](https://gamebanana.com/mods/309789).
 ***
 
-### Contributers
+### Contributors
 [MurderousYang](https://github.com/MurderousYang)
 
 ### Resources
