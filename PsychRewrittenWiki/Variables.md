@@ -1,14 +1,10 @@
 ## Lua/Unique Variables
-### THESE VARIABLES ARE ONLY USED FOR RETURNS.
-* `Function_StopLua` - Stops the lua script.
-* `Function_Stop` - Stops the game.
-* `Function_Continue` - Continues the game.
-***
-
-### THESE VARIABLES ARE ONLY USED FOR = TRUE/FALSE.
-* `luaDebugMode` - Enables debug mode.
-* `luaDeprecatedWarnings` - Tells you if a function/variable is deprecated (shouldn't be used anymore), only works if debug mode is on.
-* `inChartEditor` - Returns if you are inside the chart editor.
+* `Function_StopLua` - Stops the Lua script. Must be returned.
+* `Function_Stop` - Stops the game. Must be returned.
+* `Function_Continue` - Continues the game. Must be returned.
+* `luaDebugMode` - Enables debug mode. Use `luaDebugMode = true` to enable it. Default value is `false`.
+* `luaDeprecatedWarnings` - Tells you if a function/variable is deprecated if `luaDebugMode` is enabled. Use `luaDeprecatedWarnings = false` to disable it. Default value is `true`.
+* `inChartEditor` - Returns if you are inside the Chart Editor's playtest.
 ***
 
 ## Gameplay Variables
@@ -23,7 +19,7 @@
 * `songName` - Returns the current song name.
 * `songPath` - Returns the current song's directory.
 * `startedCountdown` - Returns if the countdown has started.
-* `inGameOver` - Returns if you are in GameOverSubstate.
+* `inGameOver` - Returns if you are in `GameOverSubstate`.
 ***
 
 ## Week Variables
@@ -37,7 +33,7 @@
 
 ## Charting Related Variables
 * `curBpm` - Returns the current bpm of the song.
-* `bpm` - Returns the starting bpm of a song.
+* `bpm` - Returns the starting bpm of the song.
 * `crochet` - Interval between beat hits.
 * `stepCrochet` - Interval between step hits.
 * `curBeat` - The current beat.
@@ -51,27 +47,27 @@
 ***
 
 ## Preferences Variables 
-* `downscroll` - Returns if Downscroll is enabled.
-* `middlescroll` - Returns if Middlescroll is enabled.
-* `framerate` - Returns the Framerate Cap.
-* `ghostTapping` - Returns if Ghost Tapping is enabled.
-* `hideHud` - Returns if Hide HUD is enabled.
-* `timeBarType` - Returns the current Time Bar Type.
-* `scoreZoom` - Returns if Score Text Zoom on Hit is enabled.
-* `cameraZoomOnBeat` - Returns if Camera Zooms is enabled.
-* `flashingLights` - Returns if Flashing Lights is enabled.
-* `noteOffset` - Returns the Note Offset in milliseconds.
-* `healthBarAlpha` - Returns the value of the Health Bar Transparency setting.
-* `noResetButton` - Returns if Disable Reset Button is enabled.
-* `lowQuality` - Returns if Low Quality is enabled.
-* `shadersEnabled` - Returns if Shaders are enabled.
+* `downscroll` - Returns if `Downscroll` is enabled.
+* `middlescroll` - Returns if `Middlescroll` is enabled.
+* `framerate` - Returns the `Framerate Cap`.
+* `ghostTapping` - Returns if `Ghost Tapping` is enabled.
+* `hideHud` - Returns if `Hide HUD` is enabled.
+* `timeBarType` - Returns the current `Time Bar Type`.
+* `scoreZoom` - Returns if `Score Text Zoom on Hit` is enabled.
+* `cameraZoomOnBeat` - Returns if `Camera Zooms` is enabled.
+* `flashingLights` - Returns if `Flashing Lights` is enabled.
+* `noteOffset` - Returns the `Note Offset` in milliseconds.
+* `healthBarAlpha` - Returns the value of the `Health Bar Transparency` option.
+* `noResetButton` - Returns if `Disable Reset Button` is enabled.
+* `lowQuality` - Returns if `Low Quality` is enabled.
+* `shadersEnabled` - Returns if `Shaders` are enabled.
 ***
 
 ## Camera/Screen Variables 
 * `cameraX` - Returns the camera's X position.
 * `cameraY` - Returns the camera's Y position.
-* `screenWidth` - Returns the screen width.
-* `screenHeight` - Returns the screen height.
+* `screenWidth` - Returns the screen's width.
+* `screenHeight` - Returns the screen's height.
 ***
 
 ## Gameplay Modifiers
