@@ -8,24 +8,24 @@
 ***
 
 ## Gameplay Variables
-* `score` - Returns the current score.
-* `misses` - Returns the current misses.
-* `hits` - Returns the total amount of notes hit.
+* `score` - Returns the current score. Alternative to `getScore`.
+* `misses` - Returns the current misses. Alternative to `getMisses`.
+* `hits` - Returns the total amount of notes hit. Alternative to `getHits`.
 * `rating` - Returns the current rating percentage (from 0 to 1).
 * `ratingName` - Returns the current rating name.
 * `ratingFC` - Returns the current rating FC.
-* `scrollSpeed` - Returns the scroll speed in a song.
-* `songLength` - Returns the song duration in milliseconds.
-* `songName` - Returns the current song name.
+* `scrollSpeed` - Returns the current song's scroll speed.
+* `songLength` - Returns the current song's duration in milliseconds.
+* `songName` - Returns the current song's name.
 * `songPath` - Returns the current song's directory.
 * `startedCountdown` - Returns if the countdown has started.
 * `inGameOver` - Returns if you are in `GameOverSubstate`.
 ***
 
 ## Week Variables
-* `difficulty` - Returns the current difficulty in numbers.
-* `difficultyName` - Returns the current difficulty in letters.
-* `difficultyPath` - Returns the current difficulty's directory.
+* `difficulty` - Returns the current song's difficulty in numbers.
+* `difficultyName` - Returns the current song's difficulty in letters.
+* `difficultyPath` - Returns the current song's difficulty directory.
 * `weekRaw` - Returns the current week in numbers.
 * `week` - Returns the current week in letters.
 * `isStoryMode` - Returns if you are playing a song via Story Mode.
@@ -100,7 +100,7 @@
 
 ### Other Variables
 * `version` - Returns the version of Psych Engine you're playing on.
-* `buildTarget` - Returns the current operating system you're running psych on. Main ones are `windows, linux, mac, browser`, and `android`.
-* `scriptName` - Returns the current script name.
+* `buildTarget` - Returns the operating system you're running psych on. Main ones are `windows, linux, mac, browser`, and `android`.
+* `scriptName` - Returns the name of the script you use this variable in.
 * `currentModDirectory` - Returns the current mod directory.
-* `curStage` - Returns the current stage.
+* `curStage` - Returns the song's current stage.
