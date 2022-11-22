@@ -36,3 +36,7 @@ Sets a new value to a variable from an array/group member on PlayState.
 * `index` - Member ID.
 * `variable` - The variable you want to set.
 * `value` - New value.
+***
+
+### Resources
+[Example of setProperty and setPropertyFromClass - Skip Intro Script](https://cdn.discordapp.com/attachments/1013221526490857482/1044585036915167252/skipIntro.lua)

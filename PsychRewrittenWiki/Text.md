@@ -1,6 +1,6 @@
 ## Creating And Removing Texts
 ### makeLuaText(tag:String, text:String, width:Int, x:Int, y:Int)
-Makes the Lua text `tag`, with the width `width`, the x `x`, and the y `y`.
+Makes the Lua text `tag`, with the width `width`, at the x `x`, and at the y `y`.
 
 * `text` - Text's content.
 

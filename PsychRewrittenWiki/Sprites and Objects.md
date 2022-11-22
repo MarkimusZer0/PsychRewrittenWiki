@@ -1,11 +1,11 @@
 ## Creating And Removing Sprites/Animation Adding
 ### makeLuaSprite(tag:String, image:String, x:Float, y:Float)
-Makes a static Lua sprite with the tag `tag`, at the x `x`, and the y `y`.
+Makes a static Lua sprite with the tag `tag`, at the x `x`, and at the y `y`.
 
 * `image` - Image file, must be somewhere in `mods/images`.
 
 ### makeAnimatedLuaSprite(tag:String, image:String, x:Float, y:Float, ?spriteType:String = "sparrow")
-Makes an animated Lua sprite with the tag `tag`, at the x `x`, and the y `y`.
+Makes an animated Lua sprite with the tag `tag`, at the x `x`, and at the y `y`.
 
 * `image` - Image file, must be somewhere in `mods/images`.
 * `spriteType` - Optional parameter that defines the object's sprite type. Default type is `sparrow`.
@@ -66,26 +66,6 @@ Loads a graphic image with the width `width` and the height `height`.
 
 * `obj` - Object's string tag.
 * `image` - Image file, must be somewhere in `mods/images`.
-
-## Object Ordering/Removing
-### getObjectOrder(obj:String)
-Returns an objects layer position.
-
-* `obj` - Object's string tag.
-
-### setObjectOrder(obj:String, position:Int)
-Sets an object's layer position to `position.
-
-* `obj` - Object's string tag.
-
-**Note** : When referring to characters, you must refer to their group, `boyfriendGroup, gfGroup, or dadGroup`.
-
-### removeFromGroup(obj:String, index:Int, dontDestroy:Bool = false)
-Removes an object from it's group.
-
-* `obj` - Group/Array variable.
-* `index` - Member ID.
-* `dontDestroy` - Optional parameter. If true, object will remain in memory. Default value is false.
 ***
 
 ## Objects
@@ -115,26 +95,53 @@ Scales the object `obj`.
 * `updateHitbox` - Optional parameter. If true, automatically updates the object's hitbox. Default value is true.
 
 ### updateHitbox(obj:String)
-Manually update's an object's hitbox.
+Updates an object's hitbox.
 
 * `obj` - Object's string tag.
+
+### updateHitboxFromGroup(group:String, index:Int)
+Updates a group index's hitbox.
+
+* `group` - Group/Array.
+* `index` - Member ID.
 
 ### playAnim(obj:String, name:String, forced:Bool = false, ?reverse:Bool = false, ?startFrame:Int = 0)
 Plays an object animation.
 
 * `obj` - Object's string tag.
-* `name` - Animation name on object.
-* `forced` - If true, animation resets. Default value is 0.
-* `reverse` If true, reverses the animation. Default value is false.
-* `startFrame` - Frame you want to start the animation on. Default value is 0.
+* `name` - Animation name.
+* `forced` - If true, the animation resets if the `obj`'s current animation is the same one being played. Default value is `false`.
+* `reverse` If true, reverses the animation. Default value is `false`.
+* `startFrame` - Frame you want to the animation to start on. Default value is 0.
 
 ### addOffset(obj:String, anim:String, x:Float, y:Float)
 Adds the specified offset to an object's animation.
 
 * `obj` - Object's string tag.
-* `anim` - Animation name on object.
+* `anim` - Animation name.
 * `x` - X offset.
 * `y` - Y offset.
+***
+
+## Object Ordering/Removing
+### getObjectOrder(obj:String)
+Returns an objects layer position.
+
+* `obj` - Object's string tag.
+
+### setObjectOrder(obj:String, position:Int)
+Sets an object's layer position to `position.
+
+* `obj` - Object's string tag.
+
+**Note** : When referring to characters, you must refer to their group, `boyfriendGroup, gfGroup, or dadGroup`.
+
+### removeFromGroup(obj:String, index:Int, dontDestroy:Bool = false)
+Removes an object from it's group.
+
+* `obj` - Group/Array.
+* `index` - Member ID.
+* `dontDestroy` - Optional parameter. If true, object will remain in memory. Default value is false.
 ***
 
 ## Other
@@ -158,6 +165,7 @@ Centers an object to the screen.
 Returns if a Lua sprite exists with the tag `tag`.
 
 * `tag` - Sprite's string tag.
+***
 
 ### Resources
-[Example of Animated Sprite - Winning Icons](https://cdn.discordapp.com/attachments/1013221526490857482/1044214684703797259/winningIcons.lua)
+[Example of Animated Sprite - Winning Icons Script](https://cdn.discordapp.com/attachments/1013221526490857482/1044214684703797259/winningIcons.lua)
