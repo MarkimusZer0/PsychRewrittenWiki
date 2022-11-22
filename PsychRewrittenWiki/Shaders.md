@@ -1,6 +1,6 @@
 ## Initializing and Removing Shaders
 ### initLuaShader(name:String, glslVersion:Int = 120)
-Initializes a shader, making it ready for use.
+Initializes a shader.
 
 * `name` - Name of the shader.
 * `glslVersion` - Optional parameter that defines the glsl version of the shader. Default is 120.
@@ -11,7 +11,7 @@ Applies a shader to an object.
 * `obj` - Object's string tag.
 * `shader` - Name of the shader. **Must be initialized with `initLuaShader`!**
 
-Keep in mind every object can only have **one** shader attached!
+Keep in mind each object can only have **one** shader attached!
 
 ### removeSpriteShader(obj:String)
 Removes a shader from an object.
@@ -59,52 +59,52 @@ Returns a float array parameter of an object's shader.
 
 ## Setting Shader Properties
 ### setShaderBool(obj:String, prop:String, value:Bool)
-Modifies a boolean parameter of an object's shader.
+Sets a boolean parameter of an object's shader.
 
 * `obj` - Object's string tag.
-* `prop` - The name of the parameter to modify.
+* `prop` - The name of the parameter to set.
 * `value` - New value.
 
 ### setShaderBoolArray(obj:String, prop:String, values:Dynamic)
-Modifies a boolean array parameter of an object's shader.
+Sets a boolean array parameter of an object's shader.
 
 * `obj` - Object's string tag.
-* `prop` - The name of the parameter to modify.
+* `prop` - The name of the parameter to set.
 * `value` - New value.
 
 ### setShaderInt(obj:String, prop:String, value:Int)
-Modifies an integer parameter of an object's shader.
+Sets an integer parameter of an object's shader.
 
 * `obj` - Object's string tag.
-* `prop` - The name of the parameter to modify.
+* `prop` - The name of the parameter to set.
 * `value` - New value.
 
 ### setShaderIntArray(obj:String, prop:String, values:Dynamic)
-Modifies an integer array parameter an object's shader.
+Sets an integer array parameter an object's shader.
 
 * `obj` - Object's string tag.
-* `prop` - The name of the parameter to modify.
+* `prop` - The name of the parameter to set.
 * `value` - New value.
 
 ### setShaderFloat(obj:String, prop:String, value:Float)
-Modifies a float parameter of an object's shader.
+Sets a float parameter of an object's shader.
 
 * `obj` - Object's string tag.
-* `prop` - The name of the parameter to modify.
+* `prop` - The name of the parameter to set.
 * `value` - New value.
 
 ### setShaderFloatArray(obj:String, prop:String, values:Dynamic)
-Modifies a float array parameter of an object's shader.
+Sets a float array parameter of an object's shader.
 
 * `obj` - Object's string tag.
-* `prop` - The name of the parameter to modify.
+* `prop` - The name of the parameter to set.
 * `value` - New value.
 
 ### setShaderSampler2D(obj:String, prop:String, bitmapdataPath:String)
-Modifies a sampler2D input of an object's shader.
+Sets a sampler2D input of an object's shader.
 
 * `obj` - Object's string tag.
-* `prop` - The name of the shader input to modify.
+* `prop` - The name of the shader input to set.
 * `bitmapdataPath` - The texture to use as the sampler2D input.
 ***
 
