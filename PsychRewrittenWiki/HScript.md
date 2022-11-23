@@ -28,21 +28,41 @@ Removes a variable from PlayState in HScript.
 * `name` - Variable name.
 ***
 
-## Pre-Installed Libraries 
-```('FlxG', FlxG)
-('FlxSprite', FlxSprite)
-('FlxCamera', FlxCamera)
-('FlxTimer', FlxTimer)
-('FlxTween', FlxTween)
-('FlxEase', FlxEase)
-('PlayState', PlayState)
-('game', PlayState.instance)
-('Paths', Paths)
-('Conductor', Conductor)
-('ClientPrefs', ClientPrefs)
-('Character', Character)
-('Alphabet', Alphabet)
-('CustomSubstate', CustomSubstate)
-('FlxRuntimeShader', FlxRuntimeShader)
-('ShaderFilter', openfl.filters.ShaderFilter)
-('StringTools', StringTools)
+## Pre-Installed Libraries
+`('FlxG', FlxG)`
+
+`('FlxSprite', FlxSprite)`
+
+`('FlxCamera', FlxCamera)`
+
+`('FlxTimer', FlxTimer)`
+
+`('FlxTween', FlxTween)`
+
+`('FlxEase', FlxEase)`
+
+`('PlayState', PlayState)`
+
+`('game', PlayState.instance)`
+
+`('Paths', Paths)`
+
+`('Conductor', Conductor)`
+
+`('ClientPrefs', ClientPrefs)`
+
+`('Character', Character)`
+
+`('Alphabet', Alphabet)`
+
+`('CustomSubstate', CustomSubstate)`
+
+`('FlxRuntimeShader', FlxRuntimeShader)`
+
+`('ShaderFilter', openfl.filters.ShaderFilter)`
+
+`('StringTools', StringTools)`
+***
+
+### Resources
+[HScript Examples Script - Character Trails, Tweens, and Accessing Lua Objects](https://cdn.discordapp.com/attachments/1013221526490857482/1044952101484253245/HScriptExamples.lua)
