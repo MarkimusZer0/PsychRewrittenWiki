@@ -65,4 +65,4 @@ Removes a variable from PlayState in HScript.
 ***
 
 ### Resources
-[HScript Examples Script - Character Trails, Tweens, and Accessing Lua Objects](https://cdn.discordapp.com/attachments/1013221526490857482/1044952101484253245/HScriptExamples.lua)
+[HScript Examples Script - Character Trails, Tweens, and Accessing Lua Objects](https://cdn.discordapp.com/attachments/1013221526490857482/1044974826156195930/HScriptExamples.lua)
