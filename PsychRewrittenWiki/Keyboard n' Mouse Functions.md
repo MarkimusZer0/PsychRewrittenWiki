@@ -17,6 +17,7 @@ Works the same way as `keyboardPressed`, but `name` should be `left, down, up, r
 
 ### keyReleased(name:String)
 Works the same way as `keyboardReleased`, but `name` should be `left, down, up, right`, or `space`.
+***
 
 ## Mouse Functions
 ### mouseClicked(button:String)

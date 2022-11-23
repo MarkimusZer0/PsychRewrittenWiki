@@ -17,7 +17,7 @@ Sets save data from a save created with `initSaveData`.
 * `value` - The value you want to set `field` to.
 
 ### flushSaveData(name:String)
-* Flushes the save `name`.
+Flushes the save `name`.
 
 ## File Functions
 ### saveFile(path:String, content:String ?absolute:Bool = false)

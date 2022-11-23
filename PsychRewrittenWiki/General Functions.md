@@ -22,13 +22,13 @@ Returns `true` or `false` based on `chance`.
 ### startDialogue(dialogueFile:String, music:String = null)
 Starts a dialogue cutscene.
 
-* `dialogueFile` - The dialogue's JSON file directory. Pathfinding starts in the current song's data folder.
+* `dialogueFile` - The dialogue's `JSON` file directory. Pathfinding starts in the song's data folder.
 * `music` - The music you want to play while during the dialogue. (MUST BE IN ONE OF THE MUSIC FOLDERS)
 
 ### startVideo(videoFile:String)
 Starts a video cutscene.
 
-* `videoFile` - The video's MP4 file directory. (MUST BE IN ONE OF THE VIDEO FOLDERS)
+* `videoFile` - The video's `MP4` file directory. (MUST BE IN ONE OF THE VIDEO FOLDERS)
 ***
 
 ## Camera Functions
@@ -52,4 +52,3 @@ Flashes the camera.
 
 ### cameraFade(camera:String, color:Hex, duration:Float, forced:Bool)
 Works similarly to `cameraFlash`, but it fades the camera instead.
-***
