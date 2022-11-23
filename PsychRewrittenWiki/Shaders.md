@@ -9,9 +9,9 @@ Initializes a shader.
 Applies a shader to an object.
 
 * `obj` - Object's string tag.
-* `shader` - Name of the shader. **Must be initialized with `initLuaShader`!**
+* `shader` - Name of the shader. Must be initialized with `initLuaShader`.
 
-Keep in mind each object can only have **one** shader attached!
+Keep in mind each object can only have **one** shader attached.
 
 ### removeSpriteShader(obj:String)
 Removes a shader from an object.
