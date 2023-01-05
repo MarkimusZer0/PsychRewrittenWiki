@@ -8,7 +8,8 @@ Makes a static Lua sprite with the tag `tag`, at the x `x`, and at the y `y`.
 Makes an animated Lua sprite with the tag `tag`, at the x `x`, and at the y `y`.
 
 * `image` - Image file, must be somewhere in `mods/images`.
-* `spriteType` - Optional parameter that defines the object's sprite type. Default type is `sparrow`.
+* `spriteType` -  Optional parameter that defines the object's sprite type. 
+*                 Default type is `sparrow`, `tex` can be used for Texture Atlas Sprite Sheets.
 
 ### addLuaSprite(tag:String, front:Bool = false)
 Adds the Lua sprite `tag`.
