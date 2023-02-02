@@ -33,7 +33,7 @@ Starts a video cutscene.
 
 ## Camera Functions
 ### cameraSetTarget(target:String)
-Sets the camera target, `target` can be `dad`, `boyfriend` or `gf`.
+Sets the camera target, `target` can be `dad` or `boyfriend`.
 
 ### cameraShake(camera:String, intensity:Float, duration:Float)
 Shakes the camera.
