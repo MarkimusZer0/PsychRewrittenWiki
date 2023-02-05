@@ -15,8 +15,11 @@ You can get Psych Engine on the Github page [here](https://github.com/ShadowMari
 ***
 
 ### Contributors
-[MurderousYang](https://github.com/MurderousYang) - Wiki editor
-[MarkimusZer0](https://github.com/MarkimusZer0) - SpriteType PR
+[MurderousYang](https://github.com/MurderousYang) - Wiki editor.
+
+[MarkimusZer0](https://github.com/MarkimusZer0) - SpriteType PR.
+
+[Gavman69](https://github.com/Gavman69) - cameraSetTarget() fix PR.
 
 ### Resources
 [The official Psych Engine wiki](https://github.com/ShadowMario/FNF-PsychEngine/wiki)
