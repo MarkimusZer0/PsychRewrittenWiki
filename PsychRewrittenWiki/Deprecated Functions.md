@@ -34,7 +34,7 @@ Gets a property of a Lua sprite. Predecessor of `getProperty`.
 Sets a property of a Lua sprite. Predecessor of `setProperty`.
 
 ### musicFadeIn(duration:Float, fromValue:Float = 0, toValue:Float = 1)
-Fades music in. What music is unknown since there is not even a tag parameter. Predecessor of `soundFadeIn`.
+Fades in `FlxG.sound.music`. Predecessor of `soundFadeIn`.
 
 ### musicFadeOut(duration:Float, toValue:Float = 0)
-Fades music out. What music is unknown since there is not even a tag parameter. Predecessor of `soundFadeOut`.
+Fades out `FlxG.sound.music`. Predecessor of `soundFadeOut`.

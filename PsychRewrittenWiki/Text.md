@@ -28,6 +28,11 @@ Returns the font of the Lua text `tag`.
 ### getTextWidth(tag:String)
 Returns the width of the Lua text `tag`.
 
+### setTextString(tag:String, text:String)
+Sets the text of the Lua text `tag`.
+
+* `text` - New text.
+
 ### setTextSize(tag:String, size:Int)
 Sets the size of the Lua text `tag`.
 

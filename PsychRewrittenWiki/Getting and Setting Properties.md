@@ -39,4 +39,4 @@ Sets a new value to a variable from an array/group member on PlayState.
 ***
 
 ### Resources
-[Example of setProperty and setPropertyFromClass - Skip Intro Script](https://cdn.discordapp.com/attachments/1013221526490857482/1044585036915167252/skipIntro.lua)
+[Example of Property Manipulation - Skip Intro Script](https://github.com/CaptainBaldi/PsychRewrittenWiki/blob/main/PsychRewrittenWiki/Example%20Scripts/skipIntro.lua)

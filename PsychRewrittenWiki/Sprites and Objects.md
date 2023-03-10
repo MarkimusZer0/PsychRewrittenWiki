@@ -8,8 +8,7 @@ Makes a static Lua sprite with the tag `tag`, at the x `x`, and at the y `y`.
 Makes an animated Lua sprite with the tag `tag`, at the x `x`, and at the y `y`.
 
 * `image` - Image file, must be somewhere in `mods/images`.
-* `spriteType` -  Optional parameter that defines the object's sprite type. 
-*                 Default type is `sparrow`, `tex` can be used for Texture Atlas Sprite Sheets.
+* `spriteType` -  Optional parameter that defines the object's sprite type. Default type is `sparrow`, `tex` can be used for Texture Atlas Sprite Sheets.
 
 ### addLuaSprite(tag:String, front:Bool = false)
 Adds the Lua sprite `tag`.
@@ -169,4 +168,4 @@ Returns if a Lua sprite exists with the tag `tag`.
 ***
 
 ### Resources
-[Example of Animated Sprite - Winning Icons Script](https://cdn.discordapp.com/attachments/1013221526490857482/1044214684703797259/winningIcons.lua)
+[Example of Animated Sprites - Winning Icons](https://github.com/CaptainBaldi/PsychRewrittenWiki/blob/main/PsychRewrittenWiki/Example%20Scripts/winningIcons.lua)

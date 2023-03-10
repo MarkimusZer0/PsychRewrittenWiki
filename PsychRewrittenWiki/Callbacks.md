@@ -5,10 +5,10 @@ Called when a script is loaded.
 ### onCreatePost()
 Called after PlayState has loaded.
 
-### onUpdate()
+### onUpdate(elapsed)
 Called every frame.
 
-### onUpdatePost()
+### onUpdatePost(elapsed)
 Called after `onUpdate()`.
 
 ### onDestroy()

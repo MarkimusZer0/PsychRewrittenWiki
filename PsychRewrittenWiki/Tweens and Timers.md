@@ -13,6 +13,10 @@ Does a tween on a receptor's X position. Once the tween is finished, it will do 
 * `duration` - How much time it will take for the tween to complete.
 * `ease` - The tweening method used, example: `circInOut`. Default ease is `linear`.
 
+Example : `noteTweenX('oppStrum0', 0, 700, 1, 'backIn')`
+
+This will tween the 1st receptor to the X position 700, it will take 1 second to reach this position, it will preform this tween with the ease `backIn`.
+
 ### noteTweenY(tag:String, note:Int, value:Dynamic, duration:Float, ease:String)
 Does a tween on a receptor's Y position.
 
@@ -46,6 +50,10 @@ Does a tween on an object's X position. Once the tween is finished, it will do a
 * `value` - Target value on the tween end.
 * `duration` - How much time it will take for the tween to complete.
 * `ease` - The tweening method used, example: `circInOut`. Default ease is `linear`.
+
+Example : `doTweenX('bf', 'boyfriend', 700, 1, 'linear')`
+
+This will tween boyfriend's X position to 700, it will take 1 second to reach this position, it will preform this tween with the ease `linear`.
 
 ### doTweenY(tag:String, vars:String, value:Dynamic, duration:Float, ease:String)
 Does a tween on an object's Y position.

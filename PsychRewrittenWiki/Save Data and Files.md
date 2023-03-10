@@ -3,7 +3,7 @@
 Initializes the save data `name`, in the folder `folder`. (MUST BE SOMEWHERE IN YOUR PSYCH ENGINE FOLDER)
 
 ### getDataFromSave(name:String, field:String, ?defaultValue:Dynamic = null)
-Gets save data from a save created with `initSaveData`.
+Returns values from save data from a save created with `initSaveData`.
 
 * `name` - Save data name.
 * `field` - The variable you want to get.

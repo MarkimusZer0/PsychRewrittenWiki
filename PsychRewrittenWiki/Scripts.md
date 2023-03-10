@@ -12,7 +12,12 @@ Removes a Lua script.
 * `ignoreAlreadyRunning` - If false, the game will not print a warning if the script does not exist.
 
 ### getRunningScripts()
-Returns the currently running scripts.
+Returns the currently running scripts in an array.
+
+### isRunning(luaFile:String)
+Returns if a Lua file is currently running.
+
+* `luaFile` - The Lua file's directory.
 
 ### debugPrint(text1:String, text2:String, text3:String, text4:String, text5:String)
 Prints a message in the top left corner, mainly used for testing certain aspects of scripts.

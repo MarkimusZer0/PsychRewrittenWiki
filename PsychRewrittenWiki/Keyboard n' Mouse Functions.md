@@ -1,5 +1,5 @@
 ## Key Functions
-### Note : Click [here](https://api.haxeflixel.com/flixel/input/keyboard/FlxKeyList.html) to see FlxKeyList.
+### Note : Click [here](https://api.haxeflixel.com/flixel/input/keyboard/FlxKeyList.html) to see the FlxKeyList documentation.
 ### keyboardJustPressed(name:String)
 Returns if the key `name` was just pressed on the current frame.
 

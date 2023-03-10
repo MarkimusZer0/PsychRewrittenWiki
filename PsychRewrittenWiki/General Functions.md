@@ -16,7 +16,8 @@ Returns a random float between `min` and `max`. Will not return any numbers in t
 ### getRandomBool(chance:Float = 50)
 Returns `true` or `false` based on `chance`.
 
-* `chance` - Can go from 0 to 100. The higher it is, the higher chance there is of `true` being returned.
+* `chance` - Can go from 0 to 100. The higher it is, the higher chance of `true` being returned.
+***
 
 ## Cutscenes
 ### startDialogue(dialogueFile:String, music:String = null)
@@ -52,3 +53,18 @@ Flashes the camera.
 
 ### cameraFade(camera:String, color:Hex, duration:Float, forced:Bool)
 Works similarly to `cameraFlash`, but it fades the camera instead.
+***
+
+## Global Functions
+### getGlobalFromScript(?luaFile:String, ?global:String)
+Returns a global variable from another Lua file. **Variable cannot be local!**
+
+* `luaFile` - The Lua file's directory.
+* `global` - The global variable you want to return.
+
+### setGlobalFromScript(luaFile:String, global:String, val:Dynamic)
+Sets a global variable from another Lua file. **Variable cannot be local!**
+
+* `luaFile` - The Lua file's directory.
+* `global` - The global variable you want to set.
+* `val` - New value.

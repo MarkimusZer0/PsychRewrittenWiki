@@ -11,24 +11,24 @@ Imports a Haxe library.
 * `libPackage` - Library package.
 
 ### getVar(name:String)
-Returns a variable from PlayState in HScript.
+Returns a variable set with `setVar`.
 
 * `name` - Variable name.
 
 ### setVar(name:String, value:Dynamic)
-Sets a variable from PlayState in HScript.
+Sets a variable in HScript.
 
 * `name` - Variable name.
 
-* `value` - New value.
+* `value` - Value.
 
 ### removeVar(name:String)
-Removes a variable from PlayState in HScript.
+Removes a variable in HScript.
 
 * `name` - Variable name.
 ***
 
-## Pre-Installed Libraries
+## Pre-Imported Libraries
 `('FlxG', FlxG)`
 
 `('FlxSprite', FlxSprite)`
@@ -65,4 +65,4 @@ Removes a variable from PlayState in HScript.
 ***
 
 ### Resources
-[HScript Examples Script - Character Trails, Tweens, and Accessing Lua Objects](https://cdn.discordapp.com/attachments/1013221526490857482/1044975819497410590/HScriptExamples.lua)
+[HScript Examples Script - Character Trails, Tweens, and Accessing Lua Objects](https://github.com/CaptainBaldi/PsychRewrittenWiki/blob/main/PsychRewrittenWiki/Example%20Scripts/hscript.lua)
