@@ -99,6 +99,7 @@
 *** 
 
 ### Other Variables
+* `skipCountdown` - Skips the countdown before the song starts.
 * `version` - Returns the version of Psych Engine you're playing on.
 * `buildTarget` - Returns the operating system you're running psych on. Main ones are `windows, linux, mac, browser`, and `android`.
 * `scriptName` - Returns the name of the script you use this variable in.
